@@ -1,2 +1,40 @@
-# EV3-Juk3box-2
-Druhá verze Juk3boxu (06/2023)
+//Není dokončeno
+# EV3 Juk3box verze 2 *(06/2022)*
+Druhá verze verze Juk3boxu (2022)
+EV3 Jukebox je můj projekt, jehož cílem bylo vytvoření plnohodnotného jukeboxu pomocí Lego Mindstorms EV3 kostky. V tomto repozitáři najdete kompletní dokumentaci a programy. Od předešlé verze se vylepšilo ovládání a narostl počet písniček.
+# 1. Základní informace  
+Koncept robota je takový, že po vložení barevné kartičky se uživateli zobrazí jednoduché menu. Pomocí čísel tlačítel kostky si může vybrat z jednotlivých písniček.
+## 1.1 Program  
+Je naprogramovaná v NI LabVIEW. Program obsahuje hlavní kostru a podprogramy s písničkama. Ty se spouští po vložení barevné kartičky a stisknutí tlačítka. Po přehrání písničky se kartička vysune.
+![image](https://github.com/user-attachments/assets/3ccd3016-919b-4a3c-a7b9-038b3d1bcd83)
+
+## 1.2 Písničky  
+<ul>
+  <li>Uhlíř a Svěrák - Narozeninová 🟢</li>
+  <li>Óda na radost 🔴</li>
+  <li>Klaus Badelt - Piráti z Karibiku 🔵</li>
+  <li>Beethoven - Sonatina G Dur (úryvek) ⚪</li>
+  <li>Vánoce, vánoce 🟡</li>
+</ul>  
+
+## 1.3 Konstrukce 
+Obrázky konstrukce robota, který byl hodnocený na soutěži. Na černý pás se vkládaly barevné kartičky.
+![Bez názvu](https://github.com/user-attachments/assets/658cba32-53fe-4e7d-b60e-6aeb5e037f01)
+
+# 2. Spuštění 
+Pokud chcete spustit Juk3box na vašem Lego robotovi, připravte si EV3 kostku, gumový pás, barevný senzor, 2 kabely a spojovací dílky. Když všechno zkompletujete a správně zapojíte, spusťte program
+1. Sestavte Lego robota z následujících dílků:
+   <ul>
+     <il>EV3, nebo NXT řídící kostka</il>
+     <il>Gumový pás</il>
+     <il>Malý motor</il>
+     <il>Touch senzor</il>
+     <il>3 libovolné kabely</il>
+     <il>Libovolné spojovací dílky</il>
+   </ul>
+
+2. Stáhněte si program z core/Juk3box_os.vi a spusťte ho v LabVIEW
+3. Upravte porty a ujistěte se, že všechny písničky jsou na správném místě a je možné je otevřít
+4. Nahrajte program a spusťte ho
+5. Vykoušejte: Vložte papírek s barvou pod barevný senzor, na pás. Stiskněte touch senzor a pokud pás zajede, senzor barvu přečte a začne hrát písnička, vše jste udělali správně.
+   
